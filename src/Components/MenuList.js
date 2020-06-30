@@ -18,11 +18,11 @@ class MenuList extends React.Component {
 							<h4>Price:</h4>
 							
 							<input type="radio" id="small" name={this.props.name} value="small"/>
-							<label>Small:{this.props.price.small}</label>
+							<label>Small:&nbsp;&nbsp;Rs{this.props.price.small}</label>
 							<input type="radio" id="medium" name={this.props.name} value="medium" />
-							<label>Medium:{this.props.price.medium}</label>
+							<label>Medium:&nbsp;&nbsp;Rs{this.props.price.medium}</label>
 							<input type="radio" id="large" name={this.props.name}  value="large"/>
-							<label>Large:{this.props.price.large}</label>
+							<label>Large:&nbsp;&nbsp;Rs{this.props.price.large}</label>
 							
 							
 						</div><br/><br/>

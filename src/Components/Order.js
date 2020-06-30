@@ -11,7 +11,7 @@ class Order extends React.Component {
 				{this.farmhouse()}
 				{this.wave()}
 				{this.tan()}
-				<h1><pre>Total:                                         {this.props.match.params.total}</pre></h1>
+				<h1><pre>Total:                                        Rs {this.props.match.params.total}</pre></h1>
 				<Link to='/' className="right floated ui green button">Back To Menu</Link>
 
 			</div>)
